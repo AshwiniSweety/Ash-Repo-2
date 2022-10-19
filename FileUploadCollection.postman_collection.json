@@ -1,0 +1,48 @@
+{
+	"info": {
+		"_postman_id": "ec64e3d0-cae1-4a06-afc6-4787e8f8793a",
+		"name": "FileUploadCollection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "20415551"
+	},
+	"item": [
+		{
+			"name": "File upload post request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "",
+							"type": "file",
+							"src": [
+								"/D:/Ashwini Documents/API_Postman/My_API_Collection/image_1.jpg",
+								"/D:/Ashwini Documents/API_Postman/My_API_Collection/image_2.jpg"
+							]
+						}
+					]
+				},
+				"url": {
+					"raw": "https://postman-echo.com/post?",
+					"protocol": "https",
+					"host": [
+						"postman-echo",
+						"com"
+					],
+					"path": [
+						"post"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": null
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
